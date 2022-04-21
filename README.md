@@ -1,2 +1,1 @@
-## Just a repositary to keep records of what I am doing daily
-Trying to learn DSA
+## Just trying to keep daily records of what I am doing
