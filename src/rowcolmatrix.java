@@ -13,7 +13,6 @@ public class rowcolmatrix {
         int[] ans = search(array, target);
         System.out.println(Arrays.toString(ans));
     }
-
     static int[] search(int[][] matrix, int target) {
         int r = 0; // row
         int c = matrix.length - 1; // column
