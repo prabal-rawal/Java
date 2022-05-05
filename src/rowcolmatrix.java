@@ -5,8 +5,8 @@ public class rowcolmatrix {
         int r = 0; // row
         int c = matrix.length - 1; // column
 
-        while (r < matrix.length && c >= 0) { // while row and column are in the matrix, literally making sure it is a matrix
-            if (matrix[r][c] == target) { // if the target is found
+        while (r < matrix.length && c >= 0) { // while row and column are in the matrix,literally making sure it is a matrix
+            if (matrix[r][c] == target) {   // if the target is found
                 return new int[] { r, c }; // return the row and column
             }
             if (matrix[r][c] < target) { // if the target is less than the current value
@@ -22,6 +22,7 @@ public class rowcolmatrix {
                 { 10, 20, 30, 40 },
                 { 15, 25, 35, 45 },
                 { 28, 29, 37, 49 },
+                { 33, 34, 38, 50 }
         };
         int target = 29; // target, no. we have to find
 
