@@ -18,7 +18,7 @@ public class rowcolmatrix {
         return new int[] { -1, -1 }; // return -1 if target is not found
     }
     public static void main(String[] args) {
-        int[][] array = { // 2D Array
+        int[][] array = { // 2D Array in which rows and column are in ascending order
                 { 10, 20, 30, 40 },
                 { 15, 25, 35, 45 },
                 { 28, 29, 37, 49 },
@@ -30,3 +30,6 @@ public class rowcolmatrix {
         System.out.println(Arrays.toString(ans));
     }
 }
+
+
+

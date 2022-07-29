@@ -1,6 +1,6 @@
-public interface fibb{
+public class fibb{
     public static void main(String[] args) {
-//fibbonachi seriers : 0,1,1,2,3,5,8,....nth term; we will describe the nth term in the below code snippet
+//fibb seriers : 0,1,1,2,3,5,8,....nth term; we will describe the nth term in the below code snippet
 
         int a = 0; int b = 1; int c = 0; int n = 7;  // will print upto nth term
         System.out.print(a + ", " + b + ", "); 

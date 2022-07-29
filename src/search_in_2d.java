@@ -10,13 +10,14 @@ public class search_in_2d{
 
 	}
 	static boolean search(int[][]arr,int target){
-		for (int i = 0;i<arr.length ; i++ ) {
-			for(int j = 0; j<arr[i].length;j++){
-				if(arr[i][j] == target){
+		for (int[] ints : arr) {
+			for (int anInt : ints) {
+				if (anInt == target) {
 					return true;
 				}
 			}
-		}return false;
+		}
+		return false;
 	}
 
 	static int[] searchh1(int[][]arr, int target){
